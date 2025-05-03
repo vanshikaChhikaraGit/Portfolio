@@ -127,6 +127,19 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
+
+      {socialMediaLinks.youtube ? (
+        <a
+          href={socialMediaLinks.youtube}
+          className="icon-button kaggle"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-youtube"  style={{ color: 'white', background:'red'}}></i>
+          <span></span>
+        </a>
+      ) : null}
     </div>
+
   );
 }
